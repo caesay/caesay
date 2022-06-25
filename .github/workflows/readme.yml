@@ -30,7 +30,7 @@ jobs:
           user: caesay
           template: classic
           base: header, activity, community, repositories, metadata
-          config_timezone: America/Edmonton
+          config_timezone: Europe/London
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
@@ -41,7 +41,6 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-          plugin_lines: yes
           plugin_sponsors: yes
           plugin_sponsors_past: yes
           plugin_sponsors_sections: goal, list, about
